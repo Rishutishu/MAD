@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="manifest" href="manifest.json">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta nmae="theme-color" content="#317E">
+<style>
+* {
+  box-sizing: border-box;
+}
+.menu {
+  float: left;
+  width: 20%;
+}
+.menuitem {
+  padding: 8px;
+  margin-top: 7px;
+  border-bottom: 1px solid red;
+}
+.main {
+  float: left;
+  width: 60%;
+  padding: 0 20px;
+  overflow: hidden;
+}
+.right {
+  background-color: gray;
+  float: left;
+  width: 20%;
+  padding: 10px 15px;
+  margin-top: 7px;
+}
+
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .main {
+    width: 80%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
+}
+</style>
+<title>soham</title>
+</head>
+<body style="font-family:Verdana;">
+ 
+
+<div style="background-color:skyblue;padding:15px;">
+  <h1>Royal Enfield</h1>
+  <h3>Made like a Gun Goes like a Bullet</h3>
+</div>
+
+<div style="overflow:auto">
+  <div class="menu">
+    <div class="menuitem">Bullet</div>
+    <div class="menuitem">Classic 350</div>
+    <div class="menuitem">Interceptor 650</div>
+    <div class="menuitem">Meteor 350</div>
+  </div>
+
+  <div class="main">
+    <h2>Royal Enfield</h2>
+    <p>Royal Enfield is an Indian multinational motorcycle manufacturing company headquartered in Chennai, Tamil Nadu, India. The Royal Enfield brand, including its original English heritage, is the oldest global motorcycle brand in continuous production. The company operates manufacturing plants in Chennai in India.</p>
+    <img src="Royal.png" style="width:100%">
+  </div>
+
+  <div class="right">
+    <h2>Why Royal Enfiled?</h2>
+    <p>An RE is the most comfortable bike that you can get specially for longer rides</p>
+    <h2>Why Royal Enfield is so popular in India??</h2>
+    <p>The brand. Royal Enfield brand is the oldest two-wheeler brand in the world, even older than Harley-Davidson. The brand has now gained a cult following due to its unique features</p>
+    <h2>Price?</h2>
+    <p>₹ 2,00,000 - ₹ 4,50,000 </p>
+  </div>
+</div>
+
+
+<div style="background-color:#f1f1f1;text-align:center;padding:10px;margin-top:7px;font-size:12px;"> SOHAM PAWAR</div>
+
+<script src="app.js" type ="module"></script>
+</body>
+</html>
+
